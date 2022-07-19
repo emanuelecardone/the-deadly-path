@@ -96,7 +96,7 @@ export default {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                align-items: center;
+                align-items: stretch;
                 gap: 1rem;
             }
         }

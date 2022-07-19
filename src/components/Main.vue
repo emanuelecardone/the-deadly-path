@@ -1,6 +1,6 @@
 <template>
     <main class="w-100 h-100">
-        <div class="container h-100">
+        <div class="container-xxl h-100">
             <div class="row row-cols-1 h-100">
                 <div class="col">
                     <Welcome v-if="datas.status.welcome" :status="datas.status" />
