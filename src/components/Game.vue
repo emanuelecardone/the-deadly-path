@@ -51,6 +51,7 @@ export default {
             this.levels[this.current.level].indexes.electric.indexes = this.levels[this.current.level].indexes.electric.copy;
             this.levels[this.current.level].indexes.user = this.levels[this.current.level].indexes.start;
             this.levels[this.current.level].indexes.alien.current = 0;
+            window.removeEventListener('keyup', this.getDirection2);
             if(path === 'menu'){
                 this.status.welcome = true;
             } else if(path === 'levels'){
